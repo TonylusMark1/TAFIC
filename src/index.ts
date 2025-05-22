@@ -1,5 +1,5 @@
 import { graphemeSegments } from 'unicode-segmenter/grapheme';
-import { Homoglypher } from "homoglypher";
+import Homoglypher from "homoglypher";
 import EmojiRegexFactory from 'emoji-regex';
 
 import HardCodedMap from "./tools/HardCodedMap/index.js";

@@ -24,7 +24,7 @@
   "description": "To ASCII First Impression Converter - normalizes text to closest first impression of reader based on ASCII set.",
   "dependencies": {
     "emoji-regex": "^10.4.0",
-    "homoglypher": "^0.1.5",
+    "homoglypher": "^0.1.10",
     "unicode-segmenter": "^0.13.0"
   },
   "devDependencies": {

@@ -1,0 +1,37 @@
+{
+  "name": "tafic",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/index.js",
+  "author": "tonylus",
+  "license": "ISC",
+  "repository": "https://github.com/TonylusMark1/TAFIC",
+  "keywords": [
+    "homoglyph",
+    "string",
+    "unicode",
+    "normalization",
+    "confusable",
+    "ascii"
+  ],
+  "description": "To ASCII First Impression Converter - normalizes text to closest first impression of reader based on ASCII set.",
+  "dependencies": {
+    "emoji-regex": "^10.4.0",
+    "homoglypher": "^0.1.5",
+    "unicode-segmenter": "^0.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/prompts": "^2.4.9",
+    "prompts": "^2.4.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "build": "tsup",
+    "prepare": "npm run build",
+    "maintaining:hcmap": "tsx ./maintaining-scripts/CheckHCMap/index.ts",
+    "maintaining:culprits": "tsx ./maintaining-scripts/Culprits/index.ts",
+    "testing:benchmark": "tsx ./testing/benchmark.ts"
+  }
+}

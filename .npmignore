@@ -1,0 +1,18 @@
+# Exclude version control related files
+.gitignore
+
+# System-generated files
+.DS_Store
+Thumbs.db
+
+# Exclude files and folder to leave only essential files
+.git
+.vscode
+public
+testing
+maintaining-scripts
+src
+CHANGELOG.md
+TODO
+tsconfig.json
+tsup.config.ts

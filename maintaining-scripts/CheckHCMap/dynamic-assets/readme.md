@@ -1,0 +1,1 @@
+File hcmap_superior_list.json contains records where HardCodedMap has rightness over rest of the algorithm.

@@ -1,0 +1,12 @@
+# Directories
+node_modules/
+dist/
+testing/
+
+# System-generated files
+.DS_Store
+Thumbs.db
+
+# Exclude files and folder to leave only essential files
+maintaining-scripts/CheckHCMap/output
+maintaining-scripts/Culprits/output.log

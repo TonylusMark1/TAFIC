@@ -144,3 +144,7 @@ export default class TAFIC {
         return str.replace(this.RegExp_ALL_NONASCII_IN_STR, '');
     }
 }
+
+//
+
+export {TAFIC};

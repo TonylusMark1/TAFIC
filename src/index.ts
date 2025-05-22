@@ -25,7 +25,7 @@ const DefaultOptions: Required<Options> = {
 
 //
 
-export class TAFIC {
+export default class TAFIC {
     private static readonly Homoglypher = new Homoglypher();
     private static readonly EmojiRegex = EmojiRegexFactory();
 

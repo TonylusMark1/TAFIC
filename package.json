@@ -2,7 +2,14 @@
   "name": "tafic",
   "version": "0.0.2",
   "type": "module",
-  "main": "./dist/index.js",
+  "main": "./dist_wrappers/index.cjs",
+  "module": "./dist/esm/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist_wrappers/index.cjs"
+    }
+  },
   "author": "tonylus",
   "license": "ISC",
   "repository": "https://github.com/TonylusMark1/TAFIC",

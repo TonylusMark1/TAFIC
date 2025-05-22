@@ -53,4 +53,4 @@ npm run maintaining:culprits
 
 ## License
 
-This project is licensed under the ISC License. See [LICENSE](LICENSE) for details.
+This project is licensed under the ISC License.

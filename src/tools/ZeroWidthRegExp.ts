@@ -4,6 +4,7 @@ type DataUnit = string | [string, string];
 
 const Data: DataUnit[] = [
     ['200B', '200D'],  // ZW chars
+    "200E",
     ['1BCA0', '1BCA3'], // Shorthand controls
     ['FFF9', 'FFFB'], // Interlinear annotation
     '034F', '061C',

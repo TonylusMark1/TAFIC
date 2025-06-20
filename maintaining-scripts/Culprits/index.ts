@@ -26,6 +26,13 @@ const flushLog = () => {
 
 //
 
+function splitIntoGraphemes(text: string): string[] {
+    const segmenter = new Intl.Segmenter(undefined, { granularity: 'grapheme' });
+    return Array.from(segmenter.segment(text), s => s.segment);
+}
+
+//
+
 const cases: string[] = [
     "", // set cases here
 ];
@@ -42,6 +49,7 @@ for (let i = 0; i < cases.length; i++) {
     });
 
     log(`Case ${i}:`);
+    log("Graphemes:", JSON.stringify(splitIntoGraphemes(original)));
     log("Before:", original);
     log("After :", result);
 
